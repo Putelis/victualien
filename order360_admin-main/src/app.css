@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'Nunito';
+		src: local('Nunito'), local('nunito'), url('fonts/Nunito/NunitoSans_10pt-Regular.ttf');
+		font-weight: normal;
+		font-display: swap;
+	}
+    @font-face {
+		font-family: 'Nunito';
+		src: local('Nunito'), local('nunito'), url('fonts/Nunito/NunitoSans_10pt-Bold.ttf');
+		font-weight: bold;
+		font-display: swap;
+	}
+    
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
